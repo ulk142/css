@@ -152,31 +152,31 @@ router.get('/template-2', function (req, res) {
     about: "We are a dynamic team of experienced journalists, dedicated to delivering the latest news and up-to-date analysis on a range of topics. With our finger on the pulse of global affairs, we strive to provide an objective and insightful perspective on the events shaping our world. Our team comprises individuals with diverse backgrounds and expertise, allowing us to provide comprehensive coverage across all sectors.",
     archive: [
       {
-        date: "March 2014",
+        text: "March 2014",
         url: "https://example.com/march-2014"
       },
       {
-        date: "February 2014",
+        text: "February 2014",
         url: "https://example.com/february-2014"
       },
       {
-        date: "January 2014",
+        text: "January 2014",
         url: "https://example.com/january-2014"
       },
       {
-        date: "December 2013",
+        text: "December 2013",
         url: "https://example.com/december-2013"
       },
       {
-        date: "November 2013",
+        text: "November 2013",
         url: "https://example.com/november-2013"
       },
       {
-        date: "October 2013",
+        text: "October 2013",
         url: "https://example.com/october-2013"
       },
       {
-        date: "September 2013",
+        text: "September 2013",
         url: "https://example.com/september-2013"
       }
     ],
