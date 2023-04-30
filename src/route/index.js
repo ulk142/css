@@ -25,11 +25,11 @@ router.get('/', function (req, res) {
 // router.get Створює нам один ентпоїнт
 
 //           ↙ тут вводимо шлях (PATH) до сторінки
-router.get('/template-3', function (req, res) {
+router.get('/template-4', function (req, res) {
   // res.render генерує нам HTML сторінку
 
   //            ↙ cюди вводимо назву файлу з сontainer
-  res.render('template-3', {
+  res.render('template-4', {
     page: {
       title: "Example Page"
     },
@@ -49,43 +49,55 @@ router.get('/template-3', function (req, res) {
       }
     ],
 
-    hero: {
-      title: "First featurette heading. It’ll blow your mind.",
-      text: "Some great placeholder content for the first featurette here. Imagine some exciting prose here.",
-      photo: "https://picsum.photos/500/500"
+    main: {
+      heading: "Oh yeah, it’s that good. See for yourself.",
+      descriotion: "Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.",
+      image: "https://picsum.photos/500/500",
+      button: "View details",
+      href: "https://example.com/",
     },
 
-    blog: [
+    featured: [
       {
-        title: "Latest post",
-        text: "This is a wider card with supporting text below as a natural lead-in to additional content",
-        button: "View details",
-        href: "https://example.com/",
-        img: "https://picsum.photos/140/140"
+        heading: "Featured title",
+        info: "Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.",
+        linkText: "Call to action",
+        linkUrl: "https://example.com/",
+        photo: "https://picsum.photos/64/64"
       },
       {
-        title: "Featured story",
-        text: "This is a wider card with supporting text below as a natural lead-in to additional content",
-        button: "View details",
-        href: "https://example.com/",
-        img: "https://picsum.photos/140/140"
+        heading: "Featured title",
+        info: "This is a wider card with supporting text below as a natural lead-in to additional content",
+        linkText: "Call to action",
+        linkUrl: "https://example.com/",
+        photo:  "https://picsum.photos/64/64"
       },
       {
-        title: "Popular post",
-        text: "This is a wider card with supporting text below as a natural lead-in to additional content",
-        button: "View details",
-        href: "https://example.com/",
-        img: "https://picsum.photos/140/140"
+        heading: "Featured title",
+        info: "This is a wider card with supporting text below as a natural lead-in to additional content",
+        linkText: "Call to action",
+        linkUrl: "https://example.com/",
+        photo:  "https://picsum.photos/64/64"
       }
     ],
 
-    form: {
-      title: "Sign up form",
-      info: "Some placeholder content in a paragraph below the heading and date.",
-      button: "Sign up",
-      href: "https://example.com/"
-    },
-  
+    actions: [
+      {
+        heading: "Checkout form",
+        text: "Checkout",
+        url: "https://example.com/"
+      },
+      {
+        heading: "Login form",
+        text: "Login",
+        url: "https://example.com/"
+      },
+      {
+        heading: "Sign up form",
+        text: "Sign up",
+        url: "https://example.com/"
+      },
+    ],
     
     footer: [
       {
