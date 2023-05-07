@@ -104,7 +104,7 @@ router.get('/template-7', function (req, res) {
     ],
 
     footer: {
-      copyright: "© Copyrights Shop 2022. All rights reserved",
+      copyright: "© Copyrights Shop 2022-2023. All rights reserved",
       pages: [
         {
           path: "www.example.com/terms",
