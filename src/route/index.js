@@ -25,11 +25,11 @@ router.get('/', function (req, res) {
 // router.get Створює нам один ентпоїнт
 
 //           ↙ тут вводимо шлях (PATH) до сторінки
-router.get('/template-6', function (req, res) {
+router.get('/template-7', function (req, res) {
   // res.render генерує нам HTML сторінку
 
   //            ↙ cюди вводимо назву файлу з сontainer
-  res.render('template-6', {
+  res.render('template-7', {
     page: {
       title: "Example Page"
     },
