@@ -90,6 +90,7 @@ router.get('/template-7', function (req, res) {
       },
       {
         id: 2,
+        isNew: true,
         photo: "https://picsum.photos/400/200",
         name: "Dolor Sit Amet",
         description: "Etiam luctus ante eget ante convallis iaculis. Nunc viverra quam vel libero accumsan, non malesuada neque vestibulum. Curabitur malesuada, velit ut pretium ullamcorper, lacus elit vehicula sapien, ut sollicitudin quam metus eget sapien."
